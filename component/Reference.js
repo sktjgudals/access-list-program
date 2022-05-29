@@ -95,15 +95,15 @@ const Reference = () => {
       axios.post('/api/attendanceUser', { state: userdata })
     }
   }
+
   return (
     <div>
       <div className="h-20 bg-gray-200">
         <div className="relative text-center">
           <div className="text-3xl font-semibold pt-5">
-            <a href="/">가좌노인문화센터</a>
+            <a href="/">OO노인문화센터</a>
           </div>
           <div className="absolute right-3 top-0 w-20">
-            <Image src="/logo.png" alt="" width={100} height={100}></Image>
           </div>
         </div>
       </div>
@@ -125,9 +125,6 @@ const Reference = () => {
       <div className="h-screen bg-gray-100"></div>
     </div>
   )
-}
-export async function getStaticProps() {
-
 }
 
 export default Reference
